@@ -3,9 +3,9 @@ import asyncio
 import structlog
 from ddtrace import tracer
 
-from log_test.log_stuff import add
-from log_test.structlog_stdlib import divide
-from log_test.structlog_stuff import multiply
+from log_test.add import add
+from log_test.divide import divide
+from log_test.multiply import multiply
 
 
 @tracer.wrap(name="run func", service="demo service")
