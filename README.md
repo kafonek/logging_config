@@ -24,7 +24,6 @@ Example of configuring logging to structure log messages that are emitted from `
 ## Console output (uncolored)
 
 ```
-og_test on  main [»+] is 📦 v0.1.0 via 🐍 v3.8.10 (.venv) 
 ❯ poetry run python run.py
 2022-08-18 12:20:27 [info     ] ADDING 2 + 3                   [log_test.add] contextfoo=bar dd.env= dd.service= dd.span_id=8613874215176314636 dd.trace_id=10487725867832306117 dd.version= filename=add.py for=eli func_name=add lineno=12
 2022-08-18 12:20:27 [warning  ] ADDING 2 + 3                   [log_test.add] contextfoo=bar dd.env= dd.service= dd.span_id=8613874215176314636 dd.trace_id=10487725867832306117 dd.version= filename=add.py func_name=add lineno=13
